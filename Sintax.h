@@ -4,8 +4,10 @@
 #include <iostream>
 #include "lexem.h"
 #include <vector>
+#include "generatecode.h"
 
 class Lexem;
+class GenerateCode;
 
 class Sintax
 {
@@ -15,8 +17,6 @@ class Sintax
     int pozision = 0;
 
     std::vector<lex>* Lex;
-
-
 
 public:
     Sintax();
