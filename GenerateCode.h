@@ -13,6 +13,7 @@ class GenerateCode
 {
     lex Lexems;
     int pozition = 0;
+    int index = 0;
 
     std::vector<lex>* Lex;
 
