@@ -5,7 +5,7 @@ Sintax::Sintax()
 
 }
 
-
+GenerateCode generateCode;
 
 void Sintax::S(std::vector<lex> *lexems)
 {
@@ -27,6 +27,8 @@ void Sintax::S(std::vector<lex> *lexems)
                     exit(0);
                 }
                 std::cout << "Синтаксический анализ выполнен успешно!" << std::endl;
+
+                generateCode.Generation(lexems);
                 return;
             }
         } else {
